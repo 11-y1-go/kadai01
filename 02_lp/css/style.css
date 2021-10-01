@@ -1,0 +1,143 @@
+/* ここから下に記載していく */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav li {
+  margin-left: 40px;
+}
+
+/* ここからメインビジュアル */
+.mainvisual {
+  height: 400px;
+  /* background-color: brown; */
+  background: url('../img/mainbg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainvisual__title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-top: 180px;
+}
+
+.mainvisual__subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ここからAbout */
+.about {
+  text-align: center;
+  width: 60%;
+  /* background-color: brown ; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about__title {
+  font-size: 30px;
+  font-weight: bold;
+  color:gold;
+  margin-bottom: 20px;
+}
+
+.about__subtitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+.about__text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.imgBox {
+  display: flex;
+}
+
+.imgBox p {
+  width:25%
+}
+
+.imgBox p img {
+  width:100%;
+}
+
+/* ここからCOURSE */
+.course {
+  margin: 50px 0;
+}
+
+.course__title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.course__text {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 70px;
+  /* margin-bottom: 50px; */
+}
+
+.course__inner {
+  display: flex;
+}
+
+.course__content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.course__content img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.content__title {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.content__text {
+  width: 100%;
+}
+
+.content__left {
+  width: 70%;
+  margin-left: 50px;
+}
+
+.course__content__right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.content__right {
+  width: 70%;
+  margin-right: 50px;
+}
